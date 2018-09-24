@@ -1,0 +1,52 @@
+
+mmhasan@DESKTOP-6NTFQ1L MINGW64 /g/WebDesign/Projects/boots_project
+$ npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help json` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (boots_project)
+version: (1.0.0)
+description: Bootstrap 4.1.3 Starter
+entry point: (index.js)
+test command:
+git repository:
+keywords:
+author: Mahmudul Hasan
+license: (ISC)
+About to write to G:\WebDesign\Projects\boots_project\package.json:
+
+{
+  "name": "boots_project",
+  "version": "1.0.0",
+  "description": "Bootstrap 4.1.3 Starter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mahmudul Hasan",
+  "license": "ISC"
+}
+
+Is this OK? (yes)
+
+mmhasan@DESKTOP-6NTFQ1L MINGW64 /g/WebDesign/Projects/boots_project
+$ atom .
+
+$ npm install boostrap jquery popper.js font-awesome --save
+
+$ npm install gulp browser-sync gulp-sass --save-dev
+
+npm -g install gulp-cli
+
+// clone from githum
+$ npm install
+$ npm start
+
+
